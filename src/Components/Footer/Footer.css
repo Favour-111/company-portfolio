@@ -3,7 +3,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 .Footer-container {
-  height: 450px;
+  height: 100%;
   width: 100%;
   margin-top: 90px;
   background-image: url("../../assets/images/mapbox-ZT5v0puBjZI-unsplash\ \(1\).jpg");
@@ -14,7 +14,7 @@
 .footer-overlay-content {
   padding: 50px;
   background-color: #111c54e8;
-  height: 450px;
+  height: 100%;
   width: 100%;
   .footer-section-1 {
     border-bottom: 1px solid #787878;
@@ -123,4 +123,38 @@
 }
 ::placeholder {
   font-family: "Inter", sans-serif;
+}
+@media screen and (max-width: 990px) {
+  .footer-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .news-cont {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Search-container {
+    padding: 0 !important;
+  }
+  .footer-section-2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .company-info {
+    margin: 0 !important;
+  }
+  .footer-company-about {
+    width: 100% !important;
+  }
+  .footer-overlay-content {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  input {
+    width: 250px !important;
+  }
 }
