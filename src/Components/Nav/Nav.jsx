@@ -130,13 +130,6 @@ const Nav = () => {
         </div>
       </div>
       <div className="nav-sm-cont shadow-sm">
-        <div
-          className="hamburger"
-          onClick={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <RxHamburgerMenu />
-        </div>
         <div className="logo-cont">
           <img
             className="logo-sm"
@@ -144,20 +137,12 @@ const Nav = () => {
             alt=""
           />
         </div>
-        <div className="nav-right-content">
-          <div>
-            <img
-              width={40}
-              height={40}
-              src="https://img.icons8.com/color/48/circled-user-male-skin-type-3--v1.png"
-              alt="circled-user-male-skin-type-3--v1"
-            />
-          </div>
-
-          <div className="bar-cont">
-            <RiShoppingCartLine size={20} />
-            <div className="bar-counter">6</div>
-          </div>
+        <div
+          className="hamburger"
+          onClick={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+          <RxHamburgerMenu />
         </div>
       </div>
       {navIsOpen && <div className="background-overflow"></div>}

@@ -150,6 +150,9 @@
       width: 200px;
     }
   }
+  .top-bar {
+    display: none;
+  }
 }
 @media screen and (max-width: 870px) {
   .nav-container {
@@ -160,18 +163,25 @@
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    padding: 5px 20px;
+    padding: 10px 20px;
   }
 
   .logo-sm {
-    width: 70px;
-    margin-bottom: -10px;
+    width: 50px;
+    height: 50px;
   }
   .nav-right-content {
     color: rgb(0, 0, 0) !important;
   }
   .hamburger {
-    color: rgb(0, 0, 0);
+    border: 1px solid #111c54;
+    color: #111c54;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 20px;
   }
   .background-overflow {
