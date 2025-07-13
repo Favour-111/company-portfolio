@@ -108,7 +108,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copywrite-text">
-        Copyright © 2025 horbah's tech, All Right Reserved
+        Copyright © 2025 Wosinia, All Right Reserved
       </div>
     </div>
   );
