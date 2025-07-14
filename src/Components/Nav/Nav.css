@@ -181,13 +181,13 @@
   .hamburger {
     border: 1px solid #111c54;
     color: #111c54;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 18px;
   }
   .background-overflow {
     position: fixed;
@@ -207,7 +207,7 @@
     height: 0;
     background-color: #ffffff;
     position: fixed;
-    top: 70px;
+    top: 60px;
     bottom: 0;
     overflow: hidden;
     z-index: 10000000;
@@ -216,7 +216,7 @@
     right: 0;
   }
   .nav-sm-container.open {
-    height: 350px;
+    height: 330px;
   }
   .menu-head {
     display: flex;
@@ -241,7 +241,7 @@
 
 .Nav-link {
   margin: 0;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
