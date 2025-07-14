@@ -53,6 +53,7 @@
       input {
         padding: 10px;
         width: 300px;
+        border-radius: 0 !important;
         border: none;
         font-family: "Inter", sans-serif;
         outline: none;

@@ -101,7 +101,7 @@ function Home() {
           <div className="text-on-image2 shadow">
             <div className="text-head">Trusted</div>
             <div className="d-flex align-items-center justify-content-between mt-1">
-              <div className="text1">Business Solutions</div>
+              <div className="text1">Engineering</div>
               <div className="percentage">100%</div>
             </div>
           </div>

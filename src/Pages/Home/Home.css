@@ -313,7 +313,7 @@
   }
 }
 .testimonial-container {
-  padding: 10px 50px 30px 50px;
+  padding: 20px;
   background-color: #f8f9fa;
   .testimonial-sub-head {
     margin-top: 50px;
@@ -334,6 +334,10 @@
   .testimonial-item-container {
     margin-top: 50px;
   }
+  .slick-slide > div {
+    display: flex;
+  }
+
   .testimonial-item {
     border: 1px solid #d3d3d3;
     padding: 30px;
@@ -446,6 +450,9 @@
     }
   }
 }
+.slick-slider {
+  overflow: hidden !important;
+}
 /* Bouncing keyframes */
 @keyframes bounce {
   0%,
@@ -480,6 +487,7 @@
   }
   .text-on-image {
     width: 180px !important;
+    padding: 15px !important;
   }
   .text-on-image .text-head {
     font-size: 10px;
@@ -489,6 +497,7 @@
   }
   .text-on-image2 {
     width: 190px !important;
+    padding: 15px !important;
   }
   .text-on-image2 .text-head {
     font-size: 10px;
@@ -496,8 +505,41 @@
   .text-on-image2 .text1 {
     font-size: 12px !important;
   }
+  .text-head {
+    font-size: 10px !important;
+  }
   .percentage {
     font-size: 9px;
+  }
+  .reason-sections {
+    padding: 20px !important;
+    margin-top: 40px !important;
+  }
+  .reason-head-main {
+    font-size: 25px !important;
+  }
+  .about-us-container {
+    padding: 30px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .container-content {
+    width: 100% !important;
+  }
+  .testimonial-container {
+    padding: 20px 10px !important;
+  }
+  .testimonial-head {
+    font-size: 25px !important;
+  }
+  .testimonial-item-container {
+    margin-top: 30px !important;
+  }
+  .sponsors-container {
+    padding: 20px 0;
+  }
+  .offer-container {
+    padding: 10px 20px !important;
   }
 }
 @media screen and (max-width: 1095px) {
@@ -563,7 +605,7 @@
 }
 @media screen and (max-width: 750px) {
   .reason-sections {
-    padding: 50px !important;
+    padding: 30px !important;
   }
   .reason-container {
     display: flex;
