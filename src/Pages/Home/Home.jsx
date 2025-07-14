@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Nav from "../../Components/Nav/Nav";
 import "./Home.css";
 import { HiOutlineShieldCheck } from "react-icons/hi";
@@ -20,6 +20,7 @@ import { IoMegaphoneOutline, IoPaperPlaneOutline } from "react-icons/io5";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { GrUserManager } from "react-icons/gr";
 import Footer from "../../Components/Footer/Footer";
+import BackToTop from "../../Components/BackToTop/BackToTop";
 function Home() {
   var settings = {
     dots: true,
@@ -62,6 +63,7 @@ function Home() {
       },
     ],
   };
+
   return (
     <div>
       <Nav />
