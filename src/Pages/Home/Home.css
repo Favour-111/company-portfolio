@@ -423,7 +423,7 @@
       width: 30%;
       padding: 20px;
       box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.07);
-      height: 260px;
+      height: 230px !important;
       .offer-icon {
         font-size: 45px;
         color: #111c54;
@@ -441,6 +441,26 @@
         color: #787878;
         font-family: "Inter", sans-serif;
         margin-top: 12px;
+      }
+      .read-more-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .animation-background {
+        height: 100px;
+        margin-top: 10px;
+        overflow: hidden;
+      }
+      .animation-cont {
+        transform: translateY(0);
+        transition: transform 0.5s ease;
+      }
+      .animation-cont:hover {
+        transform: translateY(-50px) !important;
+      }
+      .offer-item:hover {
+        color: #4891fd !important;
       }
       .Read-Link {
         font-size: 15px;

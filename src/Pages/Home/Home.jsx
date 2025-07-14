@@ -372,82 +372,106 @@ function Home() {
             <div className="offer-icon">
               <BsGraphUpArrow />
             </div>
-            <div className="offer-itm-head">Oil & Gas</div>
-            <div className="offer-content">
-              One of Nigerians largest and fastest growing oil company{" "}
-            </div>
-            <div className="d-flex align-items-center justify-content-between mt-3">
-              <Link className="Read-Link">Read More</Link>
-              <GoArrowRight />
+            <div className="animation-background">
+              <div className="animation-cont">
+                <div className="offer-itm-head">Oil & Gas</div>
+                <div className="offer-content">
+                  One of Nigerians largest and fastest growing oil company{" "}
+                </div>
+                <div className=" mt-3 read-more-container">
+                  <Link className="Read-Link">Read More</Link>
+                  <GoArrowRight />
+                </div>
+              </div>
             </div>
           </div>
           <div className="offer-item">
             <div className="offer-icon">
               <LiaTruckLoadingSolid />
             </div>
-            <div className="offer-itm-head">Logistics</div>
-            <div className="offer-content">
-              New trucks pushes Operation dept to meet future need
-            </div>
-            <div className="d-flex align-items-center justify-content-between mt-3">
-              <Link className="Read-Link">Read More</Link>
-              <GoArrowRight />
+            <div className="animation-background">
+              <div className="animation-cont">
+                <div className="offer-itm-head">Logistics</div>
+                <div className="offer-content">
+                  New trucks pushes Operation dept to meet future need
+                </div>
+                <div className=" mt-3 read-more-container">
+                  <Link className="Read-Link">Read More</Link>
+                  <GoArrowRight />
+                </div>
+              </div>
             </div>
           </div>
           <div className="offer-item">
             <div className="offer-icon">
               <IoMegaphoneOutline />
             </div>
-            <div className="offer-itm-head">Engineering</div>
-            <div className="offer-content">
-              Our continued growth has been based on repeated business from
-              satisfied Clients
-            </div>
-            <div className="d-flex align-items-center justify-content-between mt-3">
-              <Link className="Read-Link">Read More</Link>
-              <GoArrowRight />
+            <div className="animation-background">
+              <div className="animation-cont">
+                <div className="offer-itm-head">Engineering</div>
+                <div className="offer-content">
+                  Our continued growth has been based on repeated business from
+                  satisfied Clients
+                </div>
+                <div className=" mt-3 read-more-container">
+                  <Link className="Read-Link">Read More</Link>
+                  <GoArrowRight />
+                </div>
+              </div>
             </div>
           </div>
           <div className="offer-item">
             <div className="offer-icon">
               <RiCustomerService2Fill />
             </div>
-            <div className="offer-itm-head">Telecommunication</div>
-            <div className="offer-content">
-              Telecommunications Our broad network with key influencers, We
-              provide telecoms services.
-            </div>
-            <div className="d-flex align-items-center justify-content-between mt-3">
-              <Link className="Read-Link">Read More</Link>
-              <GoArrowRight />
+            <div className="animation-background">
+              <div className="animation-cont">
+                <div className="offer-itm-head">Telecommunication</div>
+                <div className="offer-content">
+                  Telecommunications Our broad network with key influencers, We
+                  provide telecoms services.
+                </div>
+                <div className=" mt-3 read-more-container">
+                  <Link className="Read-Link">Read More</Link>
+                  <GoArrowRight />
+                </div>
+              </div>
             </div>
           </div>
           <div className="offer-item">
             <div className="offer-icon">
               <IoPaperPlaneOutline />
             </div>
-            <div className="offer-itm-head">Import & Export</div>
-            <div className="offer-content">
-              Import & Export our robust teams of trained staff and up industry
-              standard equipment
-            </div>
-            <div className="d-flex align-items-center justify-content-between mt-3">
-              <Link className="Read-Link">Read More</Link>
-              <GoArrowRight />
+            <div className="animation-background">
+              <div className="animation-cont">
+                <div className="offer-itm-head">Import & Export</div>
+                <div className="offer-content">
+                  Import & Export our robust teams of trained staff and up
+                  industry standard equipment
+                </div>
+                <div className=" mt-3 read-more-container">
+                  <Link className="Read-Link">Read More</Link>
+                  <GoArrowRight />
+                </div>
+              </div>
             </div>
           </div>
           <div className="offer-item">
             <div className="offer-icon">
               <GrUserManager />
             </div>
-            <div className="offer-itm-head">Facilities Management</div>
-            <div className="offer-content">
-              Our continued growth has been based on repeated business from
-              satisfied Clients
-            </div>
-            <div className="d-flex align-items-center justify-content-between mt-3">
-              <Link className="Read-Link">Read More</Link>
-              <GoArrowRight />
+            <div className="animation-background">
+              <div className="animation-cont">
+                <div className="offer-itm-head">Facilities Management</div>
+                <div className="offer-content">
+                  Our continued growth has been based on repeated business from
+                  satisfied Clients
+                </div>
+                <div className=" mt-3 read-more-container">
+                  <Link className="Read-Link">Read More</Link>
+                  <GoArrowRight />
+                </div>
+              </div>
             </div>
           </div>
         </div>
