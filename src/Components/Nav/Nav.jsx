@@ -12,8 +12,8 @@ import { GoHeart } from "react-icons/go";
 import { RiShoppingCartLine } from "react-icons/ri";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import { MdCancel, MdOutlineAvTimer } from "react-icons/md";
-import { IoSearchOutline } from "react-icons/io5";
+import { MdCancel, MdChevronRight, MdOutlineAvTimer } from "react-icons/md";
+import { IoCloseOutline, IoSearchOutline } from "react-icons/io5";
 import { GiWorld } from "react-icons/gi";
 import { FaAngleDown, FaFacebookF } from "react-icons/fa";
 import { SlLocationPin } from "react-icons/sl";
@@ -137,32 +137,29 @@ const Nav = () => {
             alt=""
           />
         </div>
-        <div
-          className="hamburger"
-          onClick={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          <RxHamburgerMenu />
-        </div>
+        {navIsOpen ? (
+          <div className="hamburger" onClick={() => setNavIsOpen(false)}>
+            <IoCloseOutline />
+          </div>
+        ) : (
+          <div className="hamburger" onClick={() => setNavIsOpen(true)}>
+            <RxHamburgerMenu />
+          </div>
+        )}
       </div>
       {navIsOpen && <div className="background-overflow"></div>}
       <div
-        className={`nav-sm-container ${navIsOpen ? "open" : ""}`}
+        className={`shadow-sm nav-sm-container ${navIsOpen ? "open" : ""}`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="menu-head">
-          <div className="text">Menu</div>
-          <div onClick={() => setNavIsOpen(false)} aria-label="Close Menu">
-            <MdCancel />
-          </div>
-        </div>
         <div>
           <ul className="Nav-link">
             <li>
               <Link className="Link">Home</Link>
+              <MdChevronRight color="#787878" size={20} />
             </li>
-            <li onClick={() => setSubNav(!subNav)}>
+            {/* <li onClick={() => setSubNav(!subNav)}>
               <div className="d-flex align-items-center justify-content-between">
                 <Link className="Link">AutoParts</Link>
                 <IoIosArrowRoundForward
@@ -201,20 +198,40 @@ const Nav = () => {
                   </li>
                 </div>
               </ul>
+            </li> */}
+            <li>
+              <Link className="Link">our company</Link>
+              <MdChevronRight color="#787878" size={20} />
             </li>
             <li>
-              <Link className="Link">Collection</Link>
-            </li>
-            <li>
-              <Link className="Link">About Us</Link>
+              <Link className="Link">service</Link>
+              <MdChevronRight color="#787878" size={20} />
             </li>
             <li>
               <Link className="Link">Contact</Link>
+              <MdChevronRight color="#787878" size={20} />
             </li>
             <li>
-              <Link className="Link">Blog</Link>
+              <Link className="Link">our career</Link>
+              <MdChevronRight color="#787878" size={20} />
             </li>
           </ul>
+          <div className="d-flex align-items-center gap-3 mb-1 p-3 socials-sm">
+            <div className="logo-Link">
+              {" "}
+              <FaFacebookF />
+            </div>
+            <div className="logo-Link">
+              {" "}
+              <IoLogoTwitter />
+            </div>
+            <div className="logo-Link">
+              <IoLogoGoogleplus />
+            </div>
+            <div className="logo-Link">
+              <BiLogoPinterest />
+            </div>
+          </div>
         </div>
       </div>
     </div>

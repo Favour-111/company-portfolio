@@ -463,6 +463,11 @@
     transform: translateY(-40px);
   }
 }
+@media screen and (max-width: 870px) {
+  .home-banner-container {
+    margin-top: 90px !important;
+  }
+}
 @media screen and (max-width: 1150px) {
   .home-banner-container {
     .image-container-content {
