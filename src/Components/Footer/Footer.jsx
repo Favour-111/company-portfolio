@@ -10,21 +10,17 @@ const Footer = () => {
   return (
     <div className="Footer-container">
       <div className="footer-overlay-content">
-        <div className="footer-section-1">
-          <div>
-            <div className="footer-head">Wosina</div>
-            <div className="footer-sub-head">Trusted company</div>
-          </div>
-          <div className="news-cont">
-            <div className="newsLetter">Sign our NewsLetter</div>
-            <div className="Search-container">
-              <input type="text" placeholder="input email" />
-              <button>Submit</button>
-            </div>
-          </div>
-        </div>
         <div className="footer-section-2">
           <div className="footer-company-about">
+            <div className="footer-about-head">
+              <div>
+                <img
+                  src="https://wosinaglobal.com/wp-content/uploads/2018/11/WOSINA555.png"
+                  alt=""
+                />
+              </div>
+              <div>Wosina</div>
+            </div>
             <div>
               Our management which is made up of the industry's finest and
               tested practitioners is poised to recreate standards in
@@ -37,6 +33,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-links-body">
+            <div className="footer-items-header">Quick Links</div>
             <Link className="footer-link-itm">
               <MdChevronRight />
               Home
@@ -59,6 +56,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="footer-links-body">
+            <div className="footer-items-header">Socials</div>
             <Link className="footer-link-itm">
               <div>
                 <FaSquareFacebook size={13} className="mb-1 me-1" />
@@ -83,6 +81,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="company-info ">
+            <div className="footer-items-header">Contact info</div>
             <div className="company-info-items">
               <div className="icn">
                 <IoLocationOutline />

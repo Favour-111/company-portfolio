@@ -12,7 +12,7 @@
   background-size: cover;
 }
 .footer-overlay-content {
-  padding: 50px;
+  padding: 20px 50px 50px 50px;
   background-color: #111c54e8;
   height: 100%;
   width: 100%;
@@ -75,12 +75,13 @@
   }
   .footer-company-about {
     width: 40%;
-    font-size: 13px;
+    font-size: 14px;
     color: #ffffff9f;
     font-family: "Inter", sans-serif;
   }
   .company-info {
     margin-left: 20px;
+    margin-top: 15px;
   }
   .company-info-items {
     gap: 5px;
@@ -92,15 +93,17 @@
     }
     .info-itm {
       color: #ffffff9c;
-      font-size: 12px;
+      font-size: 13px;
       margin-top: 10px;
       font-family: "Inter", sans-serif;
     }
   }
   .footer-links-body {
+    width: 15%;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 15px;
     .footer-link-itm {
       color: #ffffff9c;
       display: flex;
@@ -111,6 +114,27 @@
       font-family: "Inter", sans-serif;
     }
   }
+}
+.footer-about-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.footer-items-header {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
 }
 .copywrite-text {
   width: 100%;
@@ -126,6 +150,15 @@
   font-family: "Inter", sans-serif;
 }
 @media screen and (max-width: 990px) {
+  .footer-links-body {
+    width: 100%;
+  }
+  .footer-link-itm {
+    width: 200px !important;
+  }
+  .footer-items-header {
+    width: 200px;
+  }
   .footer-section-1 {
     display: flex;
     flex-direction: column;
